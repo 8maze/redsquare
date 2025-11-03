@@ -1,3 +1,5 @@
+
+
 .rahmen {
         width: 400px;
         height: 400px;
@@ -5,16 +7,27 @@
         position:relative;
         
     }
+
  .redsquare {
     position: absolute;
             width: 20px;
             height: 20px;
             background-color: #c00000;
             top: 0;
-            left: 0;
+            left: 0;          
 
-        }
-
-    .steuerung button {
-        margin: 5px;
     }
+
+.greensquare {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: greenyellow;
+    
+    }
+
+.steuerung button {
+        margin: 5px;
+        }

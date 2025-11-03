@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="stylesheet.css">
+
 </head>
+
+
 <body class="steuerung">
+
+ Buttons für onclickbewegung    
     <button onclick="bewegen('runter')" class="btn_down" id="btn_down">&darr;</button>
     <button onclick="bewegen('hoch')" class="btn_up" id="btn_up">&uarr;</button>
     <button onclick="bewegen('links')" class="btn_left" id="btn_left">&larr;</button>
     <button onclick="bewegen('rechts')" class="btn_right"id="btn_right">&rarr;</button>
 
-    <div class="rahmen">
-        <div class="redsquare" id="redsquare" >
+   
+        <div class="redsquare" id="redsquare">
         </div>
-    </div>
+        <div class="greensquare" id="greensquare">
+        </div>
+    
 
 <script src = "script.js"></script>
+
 </body>
 </html>
